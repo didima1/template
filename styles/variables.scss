@@ -1,0 +1,25 @@
+$fontFamily: "Arial";
+
+$fontSize: rem(16);
+
+$minWidth: 320;
+
+$maxWidth: 1920;
+
+$maxWidthContainer: 1200;
+
+$containerPadding: 30;
+
+$containerWidth: $maxWidthContainer + $containerPadding;
+
+$md1: em($containerWidth);
+$md2: em(991.98);
+$md3: em(767.98);
+$md4: em(479.98);
+
+$mainColor: #000;
+
+// Тип адаптива:
+// 1 = отзывчивость (у контейнера нет брейкпоинтов),
+// 2 = по брейк-поинтам (контейнер меняет свою ширину по брейк-поинтам)
+$responsiveType: 1;
